@@ -1,0 +1,137 @@
+.md .h {
+    flex-direction: row;
+    flex-shrink: 0;
+}
+
+.md .h1 {
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    -unity-font-style: bold;
+}
+
+.md .h2 {
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 8px;
+    -unity-font-style: bold;
+}
+
+.md .h3 {
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    -unity-font-style: bold;
+}
+
+.md .list {
+    margin-bottom: 8px;
+    flex-shrink: 0;
+}
+
+.md .li {
+    flex-direction: row;
+    flex-shrink: 0;
+    margin-left: 8px;
+}
+
+.md .uli .bullet {
+    width: 4px;
+    height: 4px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 4px;
+    margin-left: 4px;
+    margin-top: 5px;
+    margin-right: 4px;
+}
+
+.md .a {
+    color: blue;
+    border-bottom-width: 1px;
+    border-bottom-color: blue;
+}
+
+.md .oli .number {
+    -unity-text-align: upper-left;
+    min-width: 16px;
+}
+
+.md .li .indent {
+    width: 16px;
+}
+
+.md .li .contents {
+    flex-grow: 1;
+}
+
+.md .li .p {
+    margin-bottom: 4px;
+}
+
+.md .li .h {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.md .p {
+    flex-direction: row;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    white-space: normal;
+    margin-bottom: 8px;
+}
+
+.md Label {
+    white-space: normal;
+    flex-shrink: 0;
+    padding-left: 0;
+    flex-direction: row;
+    -unity-text-align: middle-left;
+    padding-right: 0;
+    flex-wrap: wrap;
+}
+
+.md .hr {
+    height: 1px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.28);
+    flex-shrink: 0;
+}
+
+.md .bq {
+    background-color: rgba(0, 0, 0, 0.11);
+    margin-left: 8px;
+    padding: 4px 4px 0 8px;
+    flex-shrink: 0;
+    border-left-width: 1px;
+    border-left-color: rgba(0, 0, 0, 0.4);
+    margin-bottom: 8px;
+}
+
+.md .code {
+    background-color: rgba(0, 0, 0, 0.16);
+    font-size: 10px;
+    padding: 4px;
+    margin-left: 8px;
+    margin-bottom: 8px;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
+.md .code .contents {
+}
+
+.md .p .code {
+    padding: 0 0 2px 2px;
+    margin-left: 0;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.md .em {
+    -unity-font-style: italic;
+}
+
+.md .strong {
+    -unity-font-style: bold;
+}

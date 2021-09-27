@@ -1,0 +1,4 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="/com.uzbeckus.md2uitk/Runtime/markdown.uss" />
+    <Md2Uitk.Samples.BrowserSample.BrowserSampleElement />
+</ui:UXML>

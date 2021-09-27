@@ -1,0 +1,16 @@
+{
+    "name": "Md2Uitk.BrowserSample",
+    "rootNamespace": "",
+    "references": [
+        "GUID:de8c9f9bd6f410147879a0f2f2700fe6"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

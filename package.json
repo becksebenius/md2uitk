@@ -1,0 +1,12 @@
+{
+  "name": "com.uzbeckus.md2uitk",
+  "version": "0.0.1",
+  "displayName": "Markdown2Uitk",
+  "description": "Markdown to UIToolkit",
+  "unity": "2020.3",
+  "author": {
+    "name": "Beck Sebenius",
+    "url": "https://github.com/becksebenius"
+  },
+  "type": "library"
+}
