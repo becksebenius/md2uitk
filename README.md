@@ -1,4 +1,4 @@
-# mk2uitk
+# md2uitk
 
 The purpose of this library is to provide an API to convert markdown files into a UIToolkit VisualElement tree in Unity.
 
